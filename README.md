@@ -5,7 +5,7 @@ ICLR26 Paper Finder is a lightweight tool intended to help users search, filter,
 🔗 **[ICLR2026 Paper Finder on Hugging Face](https://huggingface.co/spaces/wenhanacademia/ICLR2026_PaperFinder)**
 
 - There are already some tools avalible, e.g. [Paper Digest](https://www.paperdigest.org/). However,
-	- ICLR 2026 Submissions are not included yet.
+	- ICLR 2026 submissions are not included yet.
 	- Mainly keyword-based search only, not allowing semantic search through information-rich and context-aware abstracts.
 	
 > ⚠️ Note: The web interface may freeze on Hugging Face.
