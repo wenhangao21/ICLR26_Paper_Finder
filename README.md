@@ -77,7 +77,7 @@ python app.py
 
 ## Acknowledgement
 If you find any bugs or have suggestions, feel free to [contact me](https://wenhangao21.github.io/).
-My collaborator [Jingxiang Qu](https://qujx.github.io/), my undergraduate mentee [Yichi Zhang](https://yichixiaoju.github.io/YichiZhang.github.io/), and I are actively working on expanding this system, adding support for more venues, improving search mechanisms with specific models, introducing multi-agent support, and introducing new functionalities.
+My collaborator [Jingxiang Qu](https://qujx.github.io/), my undergraduate mentee [Yichi Zhang](https://yichixiaoju.github.io/YichiZhang.github.io/), and I (and GPT) are actively working on expanding this system, adding support for more venues, improving search mechanisms with specific models, introducing multi-agent support, and introducing new functionalities.
 
 If you're interested in collaborating or contributing, we’d be very happy to hear from you!
 
