@@ -9,6 +9,11 @@ ICLR26 Paper Finder is a lightweight tool intended to help users search, filter,
 	- Mainly keyword-based search only, not allowing semantic search through information-rich and context-aware abstracts.
 	- A tutorial has been added (`Tutorial_Making_Paper_Recommenders.ipynb`). You can build your own ICLR Paper Finder in less than 30 minutes. 
 	
+
+- My collaborator, [Jingxiang Qu](https://qujx.github.io/), is currently developing code to collect and process papers from venues beyond ICLR. Stay tuned, we’ll 
+upload the data processing scripts soon, so you can run the recommender on these additional venues with only minimal modifications to the code (sorry, we don't have a powerful server to host an app for all these venues).
+
+	
 > ⚠️ Note: The web interface may freeze on Hugging Face.
 > If that happens, simply refresh the page to continue using the app (I'm too poor to afford a server). 
 
