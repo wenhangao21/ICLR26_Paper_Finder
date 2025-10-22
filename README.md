@@ -34,7 +34,7 @@ We host the app on **Hugging Face Spaces**:
 
 
 ### 📓 Jupyter Notebook
-Follow along with `ICLR2026_Paper_Finder`. 
+Follow along with `ICLR2026_Paper_Finder.ipynb`. 
 
 ### 💻 Python Script on Your Local Terminal
 - Setup the anaconda (skip this if you already have conda)
