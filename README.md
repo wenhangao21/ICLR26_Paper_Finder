@@ -12,7 +12,7 @@ ICLR26 Paper Finder is a lightweight tool intended to help users search, filter,
 
 - My collaborator, [Jingxiang Qu](https://qujx.github.io/), is currently developing code to collect and process papers from venues beyond ICLR. Stay tuned, we’ll 
 upload the data processing scripts soon, so you can run the recommender on these additional venues with only minimal modifications to the code (sorry, we don't have a powerful server to host an app for all these venues).
-
+- If you find this helpful, please ⭐️ star the repo or 🔁 share (repost) [this post](https://www.linkedin.com/feed/update/urn:li:activity:7386836175220801536/), thank you so much for your support!
 	
 > ⚠️ Note: The web interface may freeze on Hugging Face.
 > If that happens, simply refresh the page to continue using the app (I'm too poor to afford a server). 
