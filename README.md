@@ -7,6 +7,7 @@ ICLR26 Paper Finder is a lightweight tool intended to help users search, filter,
 - There are already some tools avalible, e.g. [Paper Digest](https://www.paperdigest.org/). However,
 	- ICLR 2026 submissions are not included yet.
 	- Mainly keyword-based search only, not allowing semantic search through information-rich and context-aware abstracts.
+	- A tutorial has been added (`Tutorial_Making_Paper_Recommenders.ipynb`). You can build your own ICLR Paper Finder in less than 30 minutes. 
 	
 > ⚠️ Note: The web interface may freeze on Hugging Face.
 > If that happens, simply refresh the page to continue using the app (I'm too poor to afford a server). 
