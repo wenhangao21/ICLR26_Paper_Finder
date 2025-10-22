@@ -9,7 +9,7 @@ ICLR26 Paper Finder is a lightweight tool intended to help users search, filter,
 	- Mainly keyword-based search only, not allowing semantic search through information-rich and context-aware abstracts.
 	
 > ⚠️ Note: The web interface may freeze on Hugging Face.
-> If that happens, simply refresh the page to continue using the app. 
+> If that happens, simply refresh the page to continue using the app (I'm too poor to afford a server). 
 
 ## 🚀 How to use
 We offer 3 options: through the live web interface, a Jupyter Notebook that you can run locally or on Google Colab for free, or a Python script on your local terminal.
