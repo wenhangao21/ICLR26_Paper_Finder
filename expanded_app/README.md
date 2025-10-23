@@ -21,9 +21,9 @@ You can ACTUALLY build your own Paper Finder in less than 30 minutes. See `Tutor
 * ☕ [Buy us a coffee](https://buymeacoffee.com/wenhanacado)
 
 **What's New Compared to ICLR 2026 Paper Finder?**
-- 🧭 Expanded venue support
+- 🧭 Expanded Venue Support
 - 🌍 Multi-lingual Support *(performance is suboptimal compared to English)*
-- 💡 Upgraded local embedding model (open & improved)
+- 💡 Upgraded Local Embedding Model (Gemini removed now)
 
 ## What We’re Working On
 
