@@ -16,6 +16,7 @@ python ICML_ICLR_NeurIPS.py --conf_name ICLR --year 2025 --email <Your Openrevie
 **For CVPR/ICCV:** 
 ```bash
 # For example, obtaining all paper information accepted by CVPR 2025
+# International Conference on Computer Vision (ICCV) is held only in odd-numbered years
 python CVPR_ICCV.py --conf_name CVPR --year 2025 
 ```
 
