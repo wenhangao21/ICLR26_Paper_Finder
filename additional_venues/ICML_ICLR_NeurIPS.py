@@ -8,8 +8,11 @@ from collections import Counter
 from datetime import datetime
 from tqdm import tqdm
 import argparse
+from IPython import embed
+import os
 
-def get_submissions(conf_name: str, year: int, email: str = None, password: str = None):
+def get_submissions(conf_name: str, year: int, email: str = None, 
+                    password: str = None, state: str = 'Submitted'):
     """
     Retrieve all submissions for a given OpenReview conference.
 
@@ -34,6 +37,13 @@ def get_submissions(conf_name: str, year: int, email: str = None, password: str 
         )
         v2_inv = f"{venue}/-/Submission"
         notes = list(tools.iterget_notes(client_v2, invitation=v2_inv))
+        if state == 'Accepted' and conf_name == 'ICLR':
+            filtered = []
+            for n in notes:
+                venue_str = n.content.get("venue", "")
+                if 'Submi' not in venue_str:
+                    filtered.append(n)
+            notes = filtered
         if notes:
             print(f"Found {len(notes)} submissions via API v2 ({v2_inv})")
             return notes
@@ -51,13 +61,18 @@ def get_submissions(conf_name: str, year: int, email: str = None, password: str 
         possible_invitations = [
             f"{venue}/-/Blind_Submission",                # common for ICLR/NeurIPS/ICML ≤2022
             f"{prefix}/{year}/conference/-/submission",   # older lowercase form
-            f"{prefix}/{year}/Workshop/-/Blind_Submission",
-            f"{prefix}/{year}/workshop/-/submission",
         ]
 
         for inv in possible_invitations:
             try:
                 notes = list(tools.iterget_notes(client_v1, invitation=inv))
+                if state == 'Accepted' and conf_name == 'ICLR':
+                    filtered = []
+                    for n in notes:
+                        venue_str = n.content.get("venue", "")
+                        if 'Submi' not in venue_str:
+                            filtered.append(n)
+                    notes = filtered
                 if notes:
                     print(f"Found {len(notes)} submissions via API v1 ({inv})")
                     return notes
@@ -72,7 +87,8 @@ def get_submissions(conf_name: str, year: int, email: str = None, password: str 
 
 def main(args):
 
-    notes = get_submissions(args.conf_name, args.year, args.email, args.password)
+    notes = get_submissions(args.conf_name, args.year, args.email, 
+                            args.password, args.state)
     
     # Check how many submissions there are
     print(f"Total submissions: {len(notes)}")
@@ -103,7 +119,9 @@ def main(args):
                 # Prepend if it's not already a full URL
                 if val and not val.startswith("https://openreview.net/"):
                     val = "https://openreview.net/" + val.lstrip("/")
-            entry[key] = val
+                entry['link'] = val
+            else:
+                entry[key] = val
         json_data.append(entry)
 
     # Save to JSON file
@@ -119,6 +137,8 @@ if __name__ == "__main__":
     parser.add_argument('--password', type=str, help='password of your openreview profile')
     parser.add_argument('--conf_name', type=str, help='Conference Name: ICML, ICLR, NeurIPS')
     parser.add_argument('--year', type=str, help='corresponding year')
+    parser.add_argument('--state', type=str, help='State of paper: Accept/Submission')
+    
     args = parser.parse_args()
 
     main(args)
