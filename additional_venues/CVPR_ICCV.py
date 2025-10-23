@@ -12,8 +12,6 @@ from collections import Counter
 from datetime import datetime
 from tqdm import tqdm
 import argparse
-from IPython import embed
-import os
 
 def get_submissions(conf_name: str,
                     year: int,
@@ -175,6 +173,8 @@ def get_submissions(conf_name: str,
             rec["conference"] = conf
             rec["year"] = year
             results.append(rec)
+            if len(results) % 100 == 0:
+                print (f'Get {len(results)} papers from {conf_name} {year}')
 
     return results
 
@@ -208,7 +208,11 @@ def main(args):
                 val = str(value["value"])
             else:
                 val = str(value)
-            entry[key] = val
+            if key == 'bibtex':
+                entry['_bibtex'] = val
+            elif key == 'detail_url':
+                entry['link'] = val
+            else: entry[key] = val
         json_data.append(entry)
 
     # Save to JSON file
