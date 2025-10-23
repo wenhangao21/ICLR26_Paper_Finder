@@ -10,12 +10,12 @@
 **For ICML/ICLR/NeurIPS:** 
 ```bash
 # For example, obtaining all paper information submitted to ICLR 2025
-python ICML_ICLR_NeurIPS.py --conf_name ICLR --year 2025 --email <Your Openreview Email> --password <Your Openreview Password> --state Submitted
+python ICML_ICLR_NeurIPS.py --conf_name ICLR --year 2025 --email <Your Openreview Email> --password <Your Openreview Password> --state <'Submitted' or 'Accepted'>
 ```
 
 **For CVPR/ICCV:** 
 ```bash
-# For example, obtaining all paper information submitted to CVPR 2025
+# For example, obtaining all paper information accepted by CVPR 2025
 python CVPR_ICCV.py --conf_name CVPR --year 2025 
 ```
 
