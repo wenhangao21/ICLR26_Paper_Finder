@@ -6,6 +6,8 @@ import textwrap
 from collections import Counter
 from datetime import datetime
 import argparse
+from IPython import embed
+import os
 
 def get_submissions(conf_name: str, year: int, email: str = None, 
                     password: str = None, state: str = 'Submitted'):
@@ -37,7 +39,7 @@ def get_submissions(conf_name: str, year: int, email: str = None,
             filtered = []
             for n in notes:
                 venue_str = n.content.get("venue", "")
-                if 'Submi' not in venue_str:
+                if venue_str['value'].find('Submi') < 0:
                     filtered.append(n)
             notes = filtered
         if notes:
@@ -66,7 +68,7 @@ def get_submissions(conf_name: str, year: int, email: str = None,
                     filtered = []
                     for n in notes:
                         venue_str = n.content.get("venue", "")
-                        if 'Submi' not in venue_str:
+                        if venue_str.find('Submi') < 0:
                             filtered.append(n)
                     notes = filtered
                 if notes:
@@ -122,7 +124,7 @@ def main(args):
 
     # Save to JSON file
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") # They update the submission list, so timestamps are added
-    filename = f"notes_{args.conf_name}{args.year}_{timestamp}.json"
+    filename = f"notes_{args.conf_name}{args.year}_{args.state}_{timestamp}.json"
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(json_data, f, ensure_ascii=False, indent=2)
 
