@@ -4,7 +4,7 @@
 
 🔗 **[AI Paper Finder Web Interface](https://huggingface.co/spaces/wenhanacademia/)**
 
-**We're still in beta and expanding the list of supported venues! We may update the beta version with new links updated here, so please save and star [this GitHub repo](https://github.com/wenhangao21/ICLR26_Paper_Finder/) for future reference before the stable release.**
+**We're still in beta and expanding the list of supported venues! We may update the beta version with new links updated here, so please save and star [this GitHub repo](https://github.com/wenhangao21/ICLR26_Paper_Finder/tree/main) for future reference before the stable release.**
 
 - There are already some tools avalible, e.g. [Paper Digest](https://www.paperdigest.org/). However,
 	- ICLR 2026 submissions are not included yet.
@@ -17,7 +17,7 @@ You can ACTUALLY build your own Paper Finder in less than 30 minutes. See `Tutor
 
 💡 **Support us:**
 
-* ⭐ [Star our GitHub repo](https://github.com/wenhangao21/ICLR26_Paper_Finder/)
+* ⭐ [Star our GitHub repo](https://github.com/wenhangao21/ICLR26_Paper_Finder/tree/main)
 * 🔗 Share our tool on [LinkedIn](https://www.linkedin.com/in/wenhan-gao-2311611b4/) and [X](https://x.com/Wenhanacademia)
 * ☕ [Buy us a coffee](https://buymeacoffee.com/wenhanacado)
 
