@@ -133,7 +133,7 @@ if __name__ == "__main__":
     parser.add_argument('--password', type=str, help='password of your openreview profile')
     parser.add_argument('--conf_name', type=str, help='Conference Name: ICML, ICLR, NeurIPS')
     parser.add_argument('--year', type=str, help='corresponding year')
-    parser.add_argument('--state', type=str, help='State of paper: Accept/Submission')
+    parser.add_argument('--state', type=str, help='State of paper: Accepted/Submission')
     
     args = parser.parse_args()
 
