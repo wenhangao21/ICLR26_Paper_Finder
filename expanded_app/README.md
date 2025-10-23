@@ -17,7 +17,7 @@ You can ACTUALLY build your own Paper Finder in less than 30 minutes. See `Tutor
 
 💡 **Support us:**
 
-* ⭐ [Star our GitHub repo](https://github.com/wenhangao21/ICLR26_Paper_Finder/tree/main)
+* ⭐ [Star our GitHub repo](https://github.com/wenhangao21/ICLR26_Paper_Finder/)
 * 🔗 Share our tool on [LinkedIn](https://www.linkedin.com/in/wenhan-gao-2311611b4/) and [X](https://x.com/Wenhanacademia)
 * ☕ [Buy us a coffee](https://buymeacoffee.com/wenhanacado)
 
