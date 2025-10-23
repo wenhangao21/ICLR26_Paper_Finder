@@ -4,7 +4,8 @@ ICLR26 Paper Finder is a lightweight tool intended to help users search, filter,
 
 🔗 **[ICLR2026 Paper Finder on Hugging Face](https://huggingface.co/spaces/wenhanacademia/ICLR2026_PaperFinder)**
 
-**Toy Demo**
+**Demo**
+
 ![Demo GIF](AI_paper_finder_demo.gif)
 
 - There are already some tools avalible, e.g. [Paper Digest](https://www.paperdigest.org/). However,
