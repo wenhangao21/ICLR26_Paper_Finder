@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 import textwrap
 from collections import Counter
 from datetime import datetime
-from tqdm import tqdm
 import argparse
 
 def get_submissions(conf_name: str,
