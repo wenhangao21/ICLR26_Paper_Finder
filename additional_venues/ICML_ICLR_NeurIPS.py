@@ -8,8 +8,6 @@ from collections import Counter
 from datetime import datetime
 from tqdm import tqdm
 import argparse
-from IPython import embed
-import os
 
 def get_submissions(conf_name: str, year: int, email: str = None, 
                     password: str = None, state: str = 'Submitted'):
