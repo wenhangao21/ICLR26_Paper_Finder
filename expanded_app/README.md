@@ -14,16 +14,20 @@
 
 You can ACTUALLY build your own Paper Finder in less than 30 minutes. See `Tutorial_Making_Paper_Recommenders.ipynb` in the parent directory of this page.
 
-
 💡 **Support us:**
 
 * ⭐ [Star our GitHub repo](https://github.com/wenhangao21/ICLR26_Paper_Finder)
 * 🔗 Share our tool on [LinkedIn](https://www.linkedin.com/in/wenhan-gao-2311611b4/) and [X](https://x.com/Wenhanacademia)
 * ☕ [Buy us a coffee](https://buymeacoffee.com/wenhanacado)
 
+**What's New Compared to ICLR 2026 Paper Finder?**
+- 🧭 Expanded venue support
+- 🌍 Multi-lingual Support *(performance is suboptimal compared to English)*
+- 💡 Upgraded local embedding model (open & improved)
+
 ## What We’re Working On
 
-Compared to the ICLR 2026 Paper Finder, we are currently:
+We are currently:
 
 * Expanding the list of supported venues
 * Designing improved user interfaces
