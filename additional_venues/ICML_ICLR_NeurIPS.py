@@ -2,11 +2,9 @@ import openreview
 from openreview import tools
 import json
 import re
-import chromadb
 import textwrap
 from collections import Counter
 from datetime import datetime
-from tqdm import tqdm
 import argparse
 
 def get_submissions(conf_name: str, year: int, email: str = None, 
