@@ -2,7 +2,7 @@
 
 Paper Finder is a lightweight tool intended to help users search, filter, and explore relavent to their research. 
 
-🔗 **[Paper Finder on Hugging Face](https://b67491c9b7c1a4f083.gradio.live/)**
+🔗 **[Paper Finder Online](https://b67491c9b7c1a4f083.gradio.live/)**
 
 **Demo**
 
@@ -20,29 +20,9 @@ Paper Finder is a lightweight tool intended to help users search, filter, and ex
 	- or 🔁 share (repost) [this post](https://www.linkedin.com/feed/update/urn:li:activity:7387243449256734720/)
 	- or [buy me a coffee](https://buymeacoffee.com/wenhanacado)
 	
-> ⚠️ Note: The web interface may freeze on Hugging Face.
-> If that happens, simply refresh the page to continue using the app (I'm too poor to afford a server). 
 
 ## 🚀 How to use
 We offer 3 options: through the live web interface, a Jupyter Notebook that you can run locally or on Google Colab for free, or a Python script on your local terminal.
-
-We currently support only ICLR 2026 with two embedding models: `gemini-embedding-001` and `all-MiniLM-L6-v2` (free). **My collaborators and I are making efforts to expand the venues and embedding models it supports.**
-
-- `all-MiniLM-L6-v2`: A totally free small local embedding model with approximately 22 million parameters, a base size of about 80 MB, and a minimum memory requirement of around 4 GB RAM for inference. It runs fast even without GPUs.
-
-- `gemini-embedding-001`: An embedding model provided by Google AI. **Each inference costs less than $0.000075**. Building embeddings for all ICLR 2026 submitted papers costs less than $1.50. [Refer to Gemini API pricing](https://ai.google.dev/gemini-api/docs/pricing?authuser=5#standard_10).
-
-> ⚠️ Note: Your API key is completely secure if you choose to use the Gemini embedding model. The source code is available on Hugging Face.
-
-
-### 🌐 Live Web Interface
-
-We host the app on **Hugging Face Spaces**:
-
-🔗 **[Paper Finder on Hugging Face](https://b67491c9b7c1a4f083.gradio.live/)**
-
-> ⚠️ Note: The web interface may freeze on Hugging Face.
-> If that happens, simply refresh the page to continue using the app. 
 
 
 ### 📓 Jupyter Notebook
@@ -85,7 +65,7 @@ unzip ICLR2026.zip
 python app.py
 ```	
 
-> **After running** `aaa.py`, **Gradio** will display a local URL. Simply open it in your web browser.
+> **After running** `app.py`, **Gradio** will display a local URL. Simply open it in your web browser.
 
 ## Acknowledgement
 If you find any bugs or have suggestions, feel free to [contact me](https://wenhangao21.github.io/).
