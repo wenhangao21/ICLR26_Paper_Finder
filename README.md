@@ -1,12 +1,55 @@
-## Paper Finder
+# Semantic Search Across AI Venues
 
-Paper Finder is a lightweight tool intended to help users search, filter, and explore relavent to their research. 
+*TL;DR:* A tool that retrieves semantically similar papers from selected AI venues, including over 17,000 ICLR 2026 submissions.
 
-🔗 **[Paper Finder Online](https://b67491c9b7c1a4f083.gradio.live/)**
+🔗 **[AI Paper Finder Web Interface](https://b67491c9b7c1a4f083.gradio.live)**
 
 **Demo**
 
 ![Demo GIF](AI_paper_finder_demo.gif)
+
+**We're still in beta and expanding the list of supported venues! We may update the beta version with new links updated here, so please save and star [this GitHub repo](https://github.com/wenhangao21/ICLR26_Paper_Finder) for future reference before the stable release.**
+
+- There are already some tools avalible, e.g. [Paper Digest](https://www.paperdigest.org/). However,
+	- ICLR 2026 submissions are not included yet.
+	- Most existing tools rely mainly on keyword-based search, whereas we enable searches using full paper abstracts.
+	- Why abstracts? They contain much richer information than titles or keywords.
+
+
+You can ACTUALLY build your own Paper Finder in less than 30 minutes. See `Tutorial_Making_Paper_Recommenders.ipynb` in the parent directory of this page.
+
+💡 **Support us:**
+
+* ⭐ [Star our GitHub repo](https://github.com/wenhangao21/ICLR26_Paper_Finder)
+* 🔗 Share our tool on [LinkedIn](https://www.linkedin.com/in/wenhan-gao-2311611b4/) and [X](https://x.com/Wenhanacademia)
+* ☕ [Buy us a coffee](https://buymeacoffee.com/wenhanacado)
+
+**What's New Compared to ICLR 2026 Paper Finder?**
+- 🧭 Expanded Venue Support
+- 🌍 Multi-lingual Support *(performance is suboptimal compared to English)*
+- 💡 Upgraded Local Embedding Model (Gemini removed now)
+
+## What We’re Working On
+
+We are currently:
+
+* Expanding the list of supported venues
+* Designing improved user interfaces
+* Researching advanced paper-matching algorithms
+* Developing multi-agent–supported search capabilities
+* Enabling batch input and batch output
+* Exploring researcher-specific personalization features (researcher persona)
+
+## Contact and Outreach
+
+**Project Lead**: [Wenhan Gao](https://wenhangao.github.io/)
+
+**Main Contributors**: [Wenhan Gao](https://wenhangao.github.io/), [Jingxiang Qu](https://wenhangao.github.io/)
+
+We are PhD students doing AI research, and it’s hard to afford servers to host this tool.
+
+We’re currently seeking affordable server options, contact us if you have any suggestions.
+
 
 - There are already some tools avalible, e.g. [Paper Digest](https://www.paperdigest.org/). However,
 	- ICLR 2026 submissions are not included yet.
@@ -14,18 +57,14 @@ Paper Finder is a lightweight tool intended to help users search, filter, and ex
 	- A tutorial has been added (`Tutorial_Making_Paper_Recommenders.ipynb`). You can build your own ICLR Paper Finder in less than 30 minutes. 
 	
 
-- We are currently developing code to collect and process papers from more venues. Stay tuned, we’ll upload the data processing scripts actively, so you can run the recommender on these additional venues with only minimal modifications to the code (sorry, we don't have a powerful server to host an app for all these venues).
-- If you want to support this work, you can
-	- ⭐️ star the repo
-	- or 🔁 share (repost) [this post](https://www.linkedin.com/feed/update/urn:li:activity:7387243449256734720/)
-	- or [buy me a coffee](https://buymeacoffee.com/wenhanacado)
-	
 
-## 🚀 How to use
-We offer 3 options: through the live web interface, a Jupyter Notebook that you can run locally or on Google Colab for free, or a Python script on your local terminal.
+## 🚀 ICLR_2026 Paper Finder
+This project is a toy example of Paper Finder, designed specifically for ICLR 2026 submissions. It serves as a good reference for building your own AI Recommender.
 
+### 📓 Guideline for Building Your Own Reommender
+Follow along with `Tutorial_Making_Paper_Recommenders.ipynb`. 
 
-### 📓 Jupyter Notebook
+### 📓 Jupyter Notebook for Online Deployment
 Follow along with `ICLR2026_Paper_Finder.ipynb`. 
 
 ### 💻 Python Script on Your Local Terminal
