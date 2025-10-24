@@ -2,7 +2,7 @@
 
 *TL;DR:* A tool that retrieves semantically similar papers from selected AI venues, including over 17,000 ICLR 2026 submissions.
 
-🔗 **[AI Paper Finder Web Interface](https://d9ec162e2e58c4f774.gradio.live)**
+🔗 **[AI Paper Finder Web Interface](https://b67491c9b7c1a4f083.gradio.live)**
 
 **We're still in beta and expanding the list of supported venues! We may update the beta version with new links updated here, so please save and star [this GitHub repo](https://github.com/wenhangao21/ICLR26_Paper_Finder) for future reference before the stable release.**
 
