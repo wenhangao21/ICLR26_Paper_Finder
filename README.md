@@ -42,9 +42,9 @@ We are currently:
 
 ## Contact and Outreach
 
-**Project Lead**: [Wenhan Gao](https://wenhangao.github.io/)
+**Project Lead**: [Wenhan Gao](https://wenhangao21.github.io/)
 
-**Main Contributors**: [Wenhan Gao](https://wenhangao.github.io/), [Jingxiang Qu](https://wenhangao.github.io/)
+**Main Contributors**: [Wenhan Gao](https://wenhangao21.github.io/), [Jingxiang Qu](https://qujx.github.io/)
 
 We are PhD students doing AI research, and it’s hard to afford servers to host this tool.
 
