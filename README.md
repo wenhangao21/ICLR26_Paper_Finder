@@ -1,6 +1,6 @@
 # Semantic Search Across AI Venues
 
-*TL;DR:* A tool that retrieves semantically similar papers from selected AI venues, including over 17,000 ICLR 2026 submissions.
+*TL;DR:* A tool that retrieves semantically similar papers from selected AI venues, including but not limited to recent ICML, ICLR, NeurIPS, CVPR, and over 17,000 ICLR 2026 submissions.
 
 🔗 **[AI Paper Finder Web Interface](https://b67491c9b7c1a4f083.gradio.live)**
 
