@@ -16,7 +16,7 @@
 	- Why abstracts? They contain much richer information than titles or keywords.
 
 
-You can ACTUALLY build your own Paper Finder in less than 30 minutes. See `Tutorial_Making_Paper_Recommenders.ipynb` in the parent directory of this page.
+You can ACTUALLY build your own Paper Finder in less than 30 minutes. See `Tutorial_Making_Paper_Recommenders.ipynb` in this repo.
 
 💡 **Support us:**
 
@@ -59,9 +59,9 @@ We’re currently seeking affordable server options, contact us if you have any 
 
 
 ## 🚀 ICLR_2026 Paper Finder
-This project is a toy example of Paper Finder, designed specifically for ICLR 2026 submissions. It serves as a good reference for building your own AI Recommender.
+This project started as a finder designed specifically for only the ICLR 2026 submissions. We provide the open source implementation as it serves as a good reference for building your own AI Paper Recommender.
 
-### 📓 Guideline for Building Your Own Reommender
+### 📓 Guideline for Building Your Own Recommender
 Follow along with `Tutorial_Making_Paper_Recommenders.ipynb`. 
 
 ### 📓 Jupyter Notebook for Online Deployment
