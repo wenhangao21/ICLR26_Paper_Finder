@@ -1,4 +1,4 @@
-#Paper Finder
+## Paper Finder
 
 Paper Finder is a lightweight tool intended to help users search, filter, and explore relavent to their research. 
 
