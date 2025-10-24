@@ -51,12 +51,6 @@ We are PhD students doing AI research, and it’s hard to afford servers to host
 We’re currently seeking affordable server options, contact us if you have any suggestions.
 
 
-- There are already some tools avalible, e.g. [Paper Digest](https://www.paperdigest.org/). However,
-	- ICLR 2026 submissions are not included yet.
-	- Mainly keyword-based search only, not allowing semantic search through information-rich and context-aware abstracts.
-	- A tutorial has been added (`Tutorial_Making_Paper_Recommenders.ipynb`). You can build your own ICLR Paper Finder in less than 30 minutes. 
-	
-
 
 ## 🚀 ICLR_2026 Paper Finder
 This project started as a finder designed specifically for only the ICLR 2026 submissions. We provide the open source implementation as it serves as a good reference for building your own AI Paper Recommender.
