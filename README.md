@@ -2,7 +2,7 @@
 
 Paper Finder is a lightweight tool intended to help users search, filter, and explore relavent to their research. 
 
-🔗 **[Paper Finder on Hugging Face](https://huggingface.co/spaces/wenhanacademia/ICLR2026_PaperFinder)**
+🔗 **[Paper Finder on Hugging Face](https://b67491c9b7c1a4f083.gradio.live/)**
 
 **Demo**
 
@@ -17,7 +17,7 @@ Paper Finder is a lightweight tool intended to help users search, filter, and ex
 - We are currently developing code to collect and process papers from more venues. Stay tuned, we’ll upload the data processing scripts actively, so you can run the recommender on these additional venues with only minimal modifications to the code (sorry, we don't have a powerful server to host an app for all these venues).
 - If you want to support this work, you can
 	- ⭐️ star the repo
-	- or 🔁 share (repost) [this post](https://www.linkedin.com/feed/update/urn:li:activity:7386836175220801536/)
+	- or 🔁 share (repost) [this post](https://www.linkedin.com/feed/update/urn:li:activity:7387243449256734720/)
 	- or [buy me a coffee](https://buymeacoffee.com/wenhanacado)
 	
 > ⚠️ Note: The web interface may freeze on Hugging Face.
@@ -39,7 +39,7 @@ We currently support only ICLR 2026 with two embedding models: `gemini-embedding
 
 We host the app on **Hugging Face Spaces**:
 
-🔗 **[ICLR2026 Paper Finder on Hugging Face](https://huggingface.co/spaces/wenhanacademia/ICLR2026_PaperFinder)**
+🔗 **[Paper Finder on Hugging Face](https://b67491c9b7c1a4f083.gradio.live/)**
 
 > ⚠️ Note: The web interface may freeze on Hugging Face.
 > If that happens, simply refresh the page to continue using the app. 
