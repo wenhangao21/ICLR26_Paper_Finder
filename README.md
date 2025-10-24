@@ -1,8 +1,8 @@
-# ICLR26 Paper Finder
+#Paper Finder
 
-ICLR26 Paper Finder is a lightweight tool intended to help users search, filter, and explore relavent to their research. 
+Paper Finder is a lightweight tool intended to help users search, filter, and explore relavent to their research. 
 
-🔗 **[ICLR2026 Paper Finder on Hugging Face](https://huggingface.co/spaces/wenhanacademia/ICLR2026_PaperFinder)**
+🔗 **[Paper Finder on Hugging Face](https://huggingface.co/spaces/wenhanacademia/ICLR2026_PaperFinder)**
 
 **Demo**
 
