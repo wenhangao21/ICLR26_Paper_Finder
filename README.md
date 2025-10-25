@@ -4,7 +4,9 @@
 
 🔗 **Try It: [AI Paper Finder Web Interface](https://b67491c9b7c1a4f083.gradio.live)**
 
-🌐 **Permanent Hosting Site: [http://ai-paper-finder.info/](http://ai-paper-finder.info/)**
+🌐 **Permanent Hosting Site: [http://ai-paper-finder.info/](http://ai-paper-finder.info/)** 
+
+(中国大陆无法访问永久网站，请收藏Repo使用第一个链接，我们会定期更新。)
 
 **Demo**
 
