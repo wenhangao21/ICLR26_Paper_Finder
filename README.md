@@ -6,7 +6,7 @@
 
 🌐 **Permanent Hosting Site: [http://ai-paper-finder.info/](http://ai-paper-finder.info/)** 
 
-(Mainland China cannot access the permanent website. Please star this repo and use the first link — we will update it regularly. 中国大陆无法访问永久网站，请收藏Repo使用第一个链接，我们会定期更新)
+(Mainland China cannot access the permanent website. Please star this repo and use the first link — we will update it regularly. 中国大陆无法访问永久网站，请使用vpn或收藏Repo使用第一个链接，我们会定期更新)
 
 **Demo**
 
