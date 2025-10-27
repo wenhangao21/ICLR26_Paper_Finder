@@ -2,11 +2,11 @@
 
 *TL;DR:* A tool that retrieves semantically similar papers from selected AI venues, including but not limited to recent ICML, ICLR, NeurIPS, CVPR, and over 17,000 ICLR 2026 submissions.
 
-🔗 **Try It: [AI Paper Finder Web Interface](https://b67491c9b7c1a4f083.gradio.live)**
+🔗 **Try It: [AI Paper Finder Web Interface](https://44f866f30734a5cbce.gradio.live/)**
 
 🌐 **Permanent Hosting Site: [http://ai-paper-finder.info/](http://ai-paper-finder.info/)** 
 
-(Mainland China cannot access the permanent website. Please star this repo and use the first link — we will update it regularly. 中国大陆无法访问永久网站，请使用vpn或收藏Repo使用第一个链接，我们会定期更新)
+(Mainland China cannot access the permanent website, please use a VPN. 中国大陆无法访问永久网站，请使用VPN。)
 
 **Demo**
 

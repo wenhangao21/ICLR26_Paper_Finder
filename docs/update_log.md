@@ -4,9 +4,11 @@ All updates for **[AI Paper Finder](https://github.com/wenhangao21/ICLR26_Paper_
 ---
 
 
-## AI Paper Finder [1.1.0] - 10-26-2025
-- Included more venues
-- Updated recommendation algorithm
+## AI Paper Finder [1.1.0] - 10-27-2025
+- Added more venues
+- Updated the recommendation algorithm
+- Improved the GUI
+- Enabled one-click copy to clipboard
 
 ## AI Paper Finder [1.0.2] - 10-24-2025
 - Released the permanent hosting site: [http://ai-paper-finder.info/](http://ai-paper-finder.info/)
