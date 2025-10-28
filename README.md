@@ -10,7 +10,7 @@
 
 **Demo**
 
-![Demo GIF](AI_paper_finder_demo.gif)
+![Demo GIF](AI_paper_finder_demo2.gif)
 
 **We're still in beta and expanding the list of supported venues! We may update the beta version with new links updated here, so please save and star [this GitHub repo](https://github.com/wenhangao21/ICLR26_Paper_Finder) for future reference before the stable release.**
 
