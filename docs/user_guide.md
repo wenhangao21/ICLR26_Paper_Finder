@@ -45,7 +45,7 @@ Enjoy exploring papers that align closely with your research interests or topics
 - **English** queries generally yield the **most accurate results**, since the underlying embedding model is primarily trained on English text.  
   
 
-**Incluede Publication Analysis**
+### Statistics about Included Venues
 
 - ICLR
 
@@ -140,6 +140,7 @@ Enjoy exploring papers that align closely with your research interests or topics
 | 2023 | —    | —         | 1578   | —     |
 | 2024 | —    | —         | 2331   | —     |
 | 2025 | —    | —         | 3028   | —     |
+
 
 
 
