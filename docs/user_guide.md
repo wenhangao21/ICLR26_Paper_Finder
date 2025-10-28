@@ -53,7 +53,7 @@ Enjoy exploring papers that align closely with your research interests or topics
 | ---- | ---- | --------- | ------ | ----------------------------------- |
 | 2021 | 53   | 114       | 692    | —                                   |
 | 2022 | 55   | 175       | 864    | —                                   |
-| 2023 | 90   | 281       | 1202   | -                                   |
+| 2023 | 90   | 281       | 1202   | —                                   |
 | 2024 | 86   | 367       | 1807   | —                                   |
 | 2025 | 213  | 380       | 3111   | —                                   |
 | 2026 | —    | —         | —      | Submissions: 19,590; Withdrawn: 143 |
@@ -140,6 +140,7 @@ Enjoy exploring papers that align closely with your research interests or topics
 | 2023 | —    | —         | 1578   | —     |
 | 2024 | —    | —         | 2331   | —     |
 | 2025 | —    | —         | 3028   | —     |
+
 
 
 
