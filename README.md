@@ -6,7 +6,7 @@
 
 🌐 **Hugging Face Hosting: [https://huggingface.co/spaces/wenhanacademia/ai-paper-finder](https://huggingface.co/spaces/wenhanacademia/ai-paper-finder)** 
 
-(The permanent website cannot be accessed in Mainland China , please use a VPN or use the Hugging Face hosting. 中国大陆无法访问永久网站，请使用VPN或者Hugging Face。)
+(The permanent website cannot be accessed in Mainland China, please use a VPN or use the Hugging Face hosting. 中国大陆无法访问永久网站，请使用VPN或者Hugging Face。)
 
 **Demo**
 
