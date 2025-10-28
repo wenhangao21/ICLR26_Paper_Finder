@@ -73,7 +73,7 @@ Enjoy exploring papers that align closely with your research interests or topics
 | Year | Oral | Spotlight | Poster | Notes                          |
 | ---- | ---- | --------- | ------ | ------------------------------ |
 | 2021 | 60   | 284       | 2286   | —                              |
-| 2022 | —    | —         | 2671   | (Accepts only aggregate count) |
+| 2022 | —    | —         | 2671   | -                              |
 | 2023 | 67   | 378       | 2773   | —                              |
 | 2024 | 61   | 326       | 3648   | —                              |
 
@@ -140,6 +140,7 @@ Enjoy exploring papers that align closely with your research interests or topics
 | 2023 | —    | —         | 1578   | —     |
 | 2024 | —    | —         | 2331   | —     |
 | 2025 | —    | —         | 3028   | —     |
+
 
 
 
