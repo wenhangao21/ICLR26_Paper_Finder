@@ -7,6 +7,7 @@
 🌐 **Hugging Face Hosting: [https://huggingface.co/spaces/wenhanacademia/ai-paper-finder](https://huggingface.co/spaces/wenhanacademia/ai-paper-finder)** 
 
 (The permanent website cannot be accessed in Mainland China, please use a VPN or use the Hugging Face hosting. 中国大陆无法访问永久网站，请使用VPN或者Hugging Face。)
+
 🚀 **NEW:** You can now download search results with one click! Additionally, using the downloaded results, you can download all available PDF files (if a link to the PDF exists in our dataset) with the script `download.py` under `tools`.
 **Demo**
 
