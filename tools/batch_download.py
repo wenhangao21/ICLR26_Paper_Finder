@@ -2,7 +2,8 @@ import os
 import re
 import requests
 
-# === Configuration ===
+# === Configuration === 
+!!!!!!CHANGE THE PATH HERE!!!!!!
 input_file = "ai-paper-finder.info search results.txt"  # Path to your text file
 save_dir = "pdf_downloads"  # Folder to save PDFs
 os.makedirs(save_dir, exist_ok=True)
