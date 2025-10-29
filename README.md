@@ -8,7 +8,7 @@
 
 (The permanent website cannot be accessed in Mainland China, please use a VPN or use the Hugging Face hosting. 中国大陆无法访问永久网站，请使用VPN或者Hugging Face。)
 
-🚀 **NEW:** You can now download search results with one click! Additionally, using the downloaded results, you can download all available PDF files (if a link to the PDF exists in our dataset) with the script `batch_download.py` under `tools`. We are working to update our database to include as many pdf links as possible. 
+🚀 **NEW:** You can now download search results with one click! Additionally, using the downloaded results, you can download all available PDF files (if a link to the PDF exists in our dataset) with the script `batch_download.py` under `tools`. We are working to update our database to include as many pdf links as possible. Downloaded files will be named with the following pattern: `<rank> - <affinity_score> - <venue> - <title>.pdf`.
 
 **Demo**
 
