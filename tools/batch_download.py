@@ -1,9 +1,8 @@
-import os
+import os 
 import re
 import requests
 
-# === Configuration === 
-# !!!!!!CHANGE THE PATH HERE!!!!!!
+# === Configuration ===
 input_file = "ai-paper-finder.info search results.txt"  # Path to your text file
 save_dir = "pdf_downloads"  # Folder to save PDFs
 os.makedirs(save_dir, exist_ok=True)
@@ -20,12 +19,14 @@ for entry in entries:
     title_match = re.search(r"Title:\s*(.*)", entry)
     venue_match = re.search(r"Venue:\s*(.*)", entry)
     link_match = re.search(r"Link:\s*(https?://\S+\.pdf)", entry)
+    affinity_match = re.search(r"Affinity Score:\s*([\d.]+)", entry)
 
-    if title_match and venue_match and link_match:
+    if title_match and venue_match and link_match and affinity_match:
         title = title_match.group(1).strip()
         venue = venue_match.group(1).strip()
         link = link_match.group(1).strip()
-        papers.append((title, venue, link))
+        affinity = float(affinity_match.group(1))
+        papers.append((title, venue, link, affinity))
 
 print(f"Found {len(papers)} papers with PDF links.")
 
@@ -33,11 +34,13 @@ print(f"Found {len(papers)} papers with PDF links.")
 choice = input(f"Download all {len(papers)} PDFs? (y/n): ").strip().lower()
 
 if choice == "y":
-    for i, (title, venue, link) in enumerate(papers, 1):
+    for i, (title, venue, link, affinity) in enumerate(papers, 1):
         # Clean filename: remove illegal characters
         safe_title = re.sub(r'[^a-zA-Z0-9_\- ]', '', title)
         safe_venue = re.sub(r'[^a-zA-Z0-9_\- ]', '', venue)
-        filename = f"{safe_venue} - {safe_title}.pdf"
+        affinity_str = f"{affinity:.2f}"  # round to 2 decimals
+
+        filename = f"{i:02d} - {affinity_str} - {safe_venue} - {safe_title}.pdf"
         filepath = os.path.join(save_dir, filename)
 
         try:
