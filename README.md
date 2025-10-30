@@ -14,7 +14,7 @@
 
 ![Demo GIF](AI_paper_finder_demo2.gif)
 
-**We're still in beta and expanding the list of supported venues! We may update the beta version with new links updated here, so please save and star [this GitHub repo](https://github.com/wenhangao21/ICLR26_Paper_Finder) for future reference before the stable release.**
+**We're still in beta and expanding the list of supported venues!**
 
 - There are already some tools avalible, e.g. [Paper Digest](https://www.paperdigest.org/). However,
 	- ICLR 2026 submissions are not included yet.
@@ -30,10 +30,11 @@ You can ACTUALLY build your own Paper Finder in less than 30 minutes. See `Tutor
 * 🔗 Share our tool on [LinkedIn](https://www.linkedin.com/in/wenhan-gao-2311611b4/) and [X](https://x.com/Wenhanacademia)
 * ☕ [Buy us a coffee](https://buymeacoffee.com/wenhanacado)
 
-**What's New Compared to ICLR 2026 Paper Finder?**
+**✨ What's New Compared to ICLR 2026 Paper Finder?**
 - 🧭 Expanded Venue Support
 - 🌍 Multi-lingual Support *(performance is suboptimal compared to English)*
 - 💡 Upgraded Local Embedding Model (Gemini removed now)
+- ⚡ One-click copying and downloading
 
 ## What We’re Working On
 
