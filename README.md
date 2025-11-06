@@ -113,6 +113,6 @@ My collaborator [Jingxiang Qu](https://qujx.github.io/), my undergraduate mentee
 
 If you're interested in collaborating or contributing, we’d be very happy to hear from you!
 
-Thanks for your interests! You are the ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fwenhangao21%2FICLR26_Paper_Finder&label=Paper_Finder&icon=book-half&color=%239ec5fe&message=&style=flat&tz=UTC) user of Paper Finder.
+Thanks for your interests! You are the ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fwenhangao21%2FICLR26_Paper_Finder&label=Paper_Finder&icon=book-half&color=%239ec5fe&message=&style=flat&tz=UTC) (today/total) visitor of this repo.
 
 
