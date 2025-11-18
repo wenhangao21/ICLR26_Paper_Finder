@@ -3,6 +3,14 @@ All updates for **[AI Paper Finder](https://github.com/wenhangao21/ICLR26_Paper_
 
 ---
 
+## AI Paper Finder [1.1.4] - 11-17-2025
+- Added rating, confidence, and the openreview page for ICLR 2026 submissions.
+## AI Paper Finder [1.1.3] - 11-10-2025
+- Fixed some known bugs.
+
+## AI Paper Finder [1.1.2] - 11-05-2025
+- Added NeurIPS 2025 Accepted Papers.
+
 ## AI Paper Finder [1.1.1] - 10-28-2025
 - Added a new feature that allows users to download all search results with one click.
 
