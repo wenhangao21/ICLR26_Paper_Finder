@@ -3,6 +3,9 @@ All updates for **[AI Paper Finder](https://github.com/wenhangao21/ICLR26_Paper_
 
 ---
 
+## AI Paper Finder [1.2.0] - 12-23-2025
+- New UI released.
+
 ## AI Paper Finder [1.1.4] - 12-17-2025
 - Added a tool script to convert the exported search results into production-ready BibTeX files.
 ## AI Paper Finder [1.1.4] - 11-17-2025
