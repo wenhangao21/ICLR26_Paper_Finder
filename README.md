@@ -8,6 +8,8 @@
 <!--
 (The permanent website cannot be accessed in Mainland China, please use a VPN or use the Hugging Face hosting. 中国大陆无法访问永久网站，请使用VPN或者Hugging Face。)
 -->
+🚀 **NEW:** ICLR 2026 accepted papers are updated.
+
 🚀 **NEW:** You can now download search results with one click! Additionally, using the downloaded results, you can download all available PDF files (if a link to the PDF exists in our dataset) with the script `batch_download.py` under `tools`. We are working to update our database to include as many pdf links as possible. Downloaded files will be named with the following pattern: `<rank> - <affinity_score> - <venue> - <title>.pdf`.
 
 🚀 **Note:** PDF links for ICLR 2026 submissions may become invalid during the rebuttal phase, as each new PDF upload from the authors generates a new link. We will update the database to include only accepted papers and update all links then.
